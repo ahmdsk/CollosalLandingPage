@@ -1,4 +1,5 @@
 import OurTeam from '@/components/OurTeam'
+import Projects from '@/components/Projects'
 import Head from 'next/head'
 import Card from '../components/Card'
 import CardWrapper from '../components/CardWrapper'
@@ -30,6 +31,8 @@ export default function Home() {
 
       <WorksSection />
       <OurTeam />
+
+      <Projects />
     </>
   )
 }

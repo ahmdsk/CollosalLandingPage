@@ -12,6 +12,8 @@ const NotoSans = Noto_Sans({
 
 export default function Layout({ children }: Props) {
     return (
-        <div className={`${NotoSans.className} container mx-auto px-48 text-white py-8`}>{children}</div>
+        <div className={`${NotoSans.className} container mx-auto xl:px-48 text-white py-8`}>
+            {children}
+        </div>
     )
 }

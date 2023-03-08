@@ -14,7 +14,7 @@ export default function ProjectCard({ title, description, image }: Props) {
       <div className="flex flex-col justify-center items-center py-6">
         <h1 className="font-bold text-xl">{title}</h1>
         <p className="font-light text-white text-opacity-60">{description}</p>
-        <Button text="Detail" className="border-2 border-white rounded-full mt-8" />
+        <Button className="border-2 border-white rounded-full mt-8">Detail</Button>
       </div>
     </div>
   )

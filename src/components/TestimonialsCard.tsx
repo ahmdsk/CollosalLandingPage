@@ -9,7 +9,7 @@ interface Props {
 
 export default function TestimonialsCard({ pict, name, job, quote }: Props) {
     return (
-        <div className="bg-white bg-opacity-5 rounded-sm px-6 py-10 w-4/12 hover:-translate-y-10 hover:border-2 border-[#6016FC] transition-all duration-200">
+        <div className="bg-white bg-opacity-5 rounded-sm px-6 py-10 xl:w-4/12 xl:mx-0 sm:mx-24 hover:-translate-y-10 hover:border-2 border-[#6016FC] transition-all duration-200">
             <div className="flex justify-center">
                 <div className="w-fit relative">
                     <Image src={pict} alt="User" width={50} height={50} className="w-20 rounded-full" />

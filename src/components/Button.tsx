@@ -1,13 +1,15 @@
 import Link from "next/link"
+import { ReactNode } from "react"
 
 interface Props {
-    text: string,
-    className?: string,
-    link?: string,
+  className?: string,
+  link?: string,
+  children: ReactNode,
+  onClick?: () => void
 }
 
-export default function Button({ text, link, className }: Props) {
+export default function Button({ children, className, link, onClick }: Props ) {
   return (
-    <Link href={link ?? ''} className={`py-2 px-6 rounded-sm font-medium ${className}`}>{text}</Link>
+    <Link href={link ?? ''} onClick={onClick} className={`py-2 px-8 font-medium ${className}`}>{children}</Link>
   )
 }

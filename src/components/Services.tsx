@@ -7,7 +7,7 @@ export default function Services() {
         <h3 className="text-[#16FCD2] font-semibold text-base">GET STARTED</h3>
         <h1 className="font-bold text-3xl pt-3 pb-5 w-[500px]">What do you need? Choose a service that can help you</h1>
 
-        <div className="flex flex-wrap gap-3 justify-center w-full pt-12">
+        <div className="flex xl:flex-row sm:flex-col flex-wrap gap-3 justify-center w-full pt-12">
           <ServiceCard 
             bgClassName="bg-[#3F2379]" 
             textClassName="text-[#3F2379]" 

@@ -7,7 +7,7 @@ export default function Testimonials() {
                 <h3 className="text-[#16FCD2] font-semibold text-base">TESTIMONIAL</h3>
                 <h1 className="font-bold text-3xl pt-3 pb-5 w-[500px]">What do our clients say that we never let down?</h1>
 
-                <div className="flex gap-3 justify-center w-full pt-12">
+                <div className="flex xl:flex-row sm:flex-col gap-3 justify-center w-full pt-12">
                     <TestimonialsCard 
                         pict="https://randomuser.me/api/portraits/men/75.jpg" 
                         name="Courtney Henry" 

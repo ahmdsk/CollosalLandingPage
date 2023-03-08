@@ -8,6 +8,6 @@ interface Props {
 
 export default function Button({ text, link, className }: Props) {
   return (
-    <Link href={link ?? ''} className={`py-2 px-6 rounded-md font-semibold ${className}`}>{text}</Link>
+    <Link href={link ?? ''} className={`py-2 px-6 rounded-sm font-medium ${className}`}>{text}</Link>
   )
 }

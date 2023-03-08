@@ -35,7 +35,7 @@ export default function Header() {
                 return <MenuLink url={link.url} key={index}>{link.text}</MenuLink>
             })}
         </div>
-        <Button text="Contact" className="bg-white bg-opacity-10"/>
+        <Button text="Contact" className="bg-white bg-opacity-10 drop-shadow-xl"/>
     </div>
   )
 }

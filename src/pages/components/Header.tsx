@@ -25,7 +25,7 @@ const Links = [
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center py-7">
+    <div className="flex justify-between items-center">
         <div className="flex gap-4 items-center">
             <Image src="/collosal/Logo.svg" alt="Collosal" width={25} height={25} />
             <h1 className={`${DMSans.className} text-lg`}>Collosal.</h1>

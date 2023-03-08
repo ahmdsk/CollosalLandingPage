@@ -7,8 +7,8 @@ type Props = {
     key: number
 }
 
-export default function MenuLink({ url, children, key }: Props) {
+export default function MenuLink({ url, children }: Props) {
   return (
-    <Link href={url} key={key} className="text-md">{children}</Link>
+    <Link href={url} className="text-md">{children}</Link>
   )
 }

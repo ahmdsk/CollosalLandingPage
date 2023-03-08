@@ -4,6 +4,7 @@ import CardWrapper from './components/CardWrapper'
 import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import Testimonials from './components/Testimonials'
+import WorksSection from './components/WorksSection'
 
 export default function Home() {
   return (
@@ -25,6 +26,8 @@ export default function Home() {
       </CardWrapper>
 
       <Testimonials />
+
+      <WorksSection />
     </>
   )
 }

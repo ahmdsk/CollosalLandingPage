@@ -4,10 +4,6 @@ import MenuLink from "./MenuLink"
 import Button from "./Button"
 
 const DMSans = DM_Sans({ subsets: ['latin'], weight: '700' })
-const NotoSans = Noto_Sans({
-    subsets: ['latin'],
-    weight: "400"
-})
 const Links = [
     {
         text: 'Services',
@@ -29,12 +25,12 @@ const Links = [
 
 export default function Header() {
   return (
-    <div className="flex justify-between items-center text-white pt-7">
+    <div className="flex justify-between items-center py-7">
         <div className="flex gap-4 items-center">
             <Image src="/collosal/Logo.svg" alt="Collosal" width={25} height={25} />
             <h1 className={`${DMSans.className} text-lg`}>Collosal.</h1>
         </div>
-        <div className={`${NotoSans.className} flex items-center gap-10`}>
+        <div className={`flex items-center gap-10`}>
             {Links.map((link, index) => {
                 return <MenuLink url={link.url} key={index}>{link.text}</MenuLink>
             })}

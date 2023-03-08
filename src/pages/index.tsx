@@ -8,6 +8,8 @@ import HeroSection from '../components/HeroSection'
 import BrandLogo from '../components/BrandLogo'
 import WorksSection from '../components/WorksSection'
 import Testimonials from '@/components/Testimonials'
+import Callout from '@/components/Callout'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -28,6 +30,8 @@ export default function Home() {
       <Projects />
       <Services />
       <Testimonials />
+      <Callout />
+      <Footer />
     </>
   )
 }

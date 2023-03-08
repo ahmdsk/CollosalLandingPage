@@ -23,7 +23,7 @@ const Clients = [
     }
 ]
 
-export default function Testimonials() {
+export default function BrandLogo() {
   return (
     <div className="flex items-center justify-evenly mt-7 py-10 border-y-2 border-white border-opacity-10">
         {Clients.map((client, index) => {

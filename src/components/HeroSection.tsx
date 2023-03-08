@@ -2,7 +2,7 @@ import Button from "./Button";
 
 export default function HeroSection() {
   return (
-    <div className="flex justify-center text-center py-12">
+    <div className="flex justify-center text-center py-28">
         <div className="w-[600px]">
             <h3 className="font-semibold text-[#16FCD2]">CLIENT-DEVELOPMENT DRIVEN</h3>
             <h1 className="font-bold text-4xl pt-6 pb-9">We Design. We Develop. We Ship. In The Same Day.</h1>

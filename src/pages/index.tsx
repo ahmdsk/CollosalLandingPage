@@ -1,10 +1,11 @@
+import OurTeam from '@/components/OurTeam'
 import Head from 'next/head'
-import Card from './components/Card'
-import CardWrapper from './components/CardWrapper'
-import Header from './components/Header'
-import HeroSection from './components/HeroSection'
-import Testimonials from './components/Testimonials'
-import WorksSection from './components/WorksSection'
+import Card from '../components/Card'
+import CardWrapper from '../components/CardWrapper'
+import Header from '../components/Header'
+import HeroSection from '../components/HeroSection'
+import Testimonials from '../components/Testimonials'
+import WorksSection from '../components/WorksSection'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Testimonials />
 
       <WorksSection />
+      <OurTeam />
     </>
   )
 }

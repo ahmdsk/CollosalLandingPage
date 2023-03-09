@@ -8,7 +8,7 @@ const resources = ['Support', 'Documentation', 'License', 'Sitemap']
 
 export default function Footer() {
   return (
-    <div className="flex sm:flex-wrap py-24 mx-16">
+    <div className="flex sm:flex-wrap pt-24 mx-16">
         <div className="xl:w-3/12 sm:w-full sm:mb-10">
             <div className="flex gap-4 items-center pb-4">
                 <Image src="/collosal/Logo.svg" alt="Collosal" width={25} height={25} />

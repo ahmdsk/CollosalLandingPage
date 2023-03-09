@@ -16,11 +16,11 @@ export default function Sidebar({ Links }: Props) {
     context.isOpen = false
   }
 
-  const closeWrapper = context.isOpen ? 'w-1/2' : '-translate-x-[400px]'
+  const closeWrapper = context.isOpen ? 'sm:w-1/2 min-[300px]:w-2/3' : '-translate-x-[400px]'
 
   return (
     <div className={`fixed top-0 left-0 bg-[#0B0B22] min-h-screen p-8 ${closeWrapper} transition-all ease-in-out duration-200`}>
-      <Button className="flex justify-end mb-3" onClick={() => closeSidebar()}>
+      <Button className="flex justify-end mb-12 min-[300px]:px-0" onClick={() => closeSidebar()}>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
         </svg>

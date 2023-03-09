@@ -10,7 +10,7 @@ interface Props {
 
 export default function ServiceCard({ bgClassName, textClassName, title, price, desc }: Props) {
     return (
-        <div className={`rounded-md pt-10 pb-6 px-8 xl:w-3/12 xl:mx-0 sm:mx-24 ${bgClassName}`}>
+        <div className={`rounded-md pt-10 pb-6 px-8 xl:w-3/12 min-[300px]:w-full xl:mx-0 sm:mx-24 ${bgClassName}`}>
             <div className="flex justify-between border-b-2 border-white border-opacity-5 pb-6">
                 <h3 className="font-bold">{title}</h3>
                 <div className="text-left">

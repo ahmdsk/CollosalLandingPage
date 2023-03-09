@@ -2,12 +2,12 @@ import TestimonialsCard from "../Testimonials/TestimonialsCard";
 
 export default function Testimonials() {
     return (
-        <div className="flex justify-center py-24 rounded-lg">
+        <div className="flex justify-center py-24 rounded-lg min-[300px]:mx-4 md:mx-0">
             <div className="flex flex-col justify-center items-center text-center w-full">
                 <h3 className="text-[#16FCD2] font-semibold text-base">TESTIMONIAL</h3>
-                <h1 className="font-bold text-3xl pt-3 pb-5 w-[500px]">What do our clients say that we never let down?</h1>
+                <h1 className="font-bold text-3xl pt-3 pb-5 md:w-[500px] min-[300px]:w-full">What do our clients say that we never let down?</h1>
 
-                <div className="flex xl:flex-row sm:flex-col gap-3 justify-center w-full pt-12">
+                <div className="flex xl:flex-row min-[300px]:flex-col gap-3 justify-center w-full pt-12">
                     <TestimonialsCard 
                         pict="https://randomuser.me/api/portraits/men/75.jpg" 
                         name="Courtney Henry" 

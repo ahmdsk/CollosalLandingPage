@@ -1,4 +1,4 @@
-import Button from "./Button";
+import Button from "../Header/Button";
 
 export default function HeroSection() {
   return (

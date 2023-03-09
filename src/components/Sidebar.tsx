@@ -1,7 +1,7 @@
 import { AppContext } from "@/utils/context"
 import Link from "next/link"
 import { useContext } from "react"
-import Button from "./Button"
+import Button from "./Header/Button"
 
 interface Props {
   Links: {

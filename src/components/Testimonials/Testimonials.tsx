@@ -1,4 +1,4 @@
-import TestimonialsCard from "./TestimonialsCard";
+import TestimonialsCard from "../Testimonials/TestimonialsCard";
 
 export default function Testimonials() {
     return (

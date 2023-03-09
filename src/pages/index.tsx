@@ -12,6 +12,25 @@ import Callout from '@/components/Callout'
 import Footer from '@/components/Footer'
 
 export default function Home() {
+  const Links = [
+    {
+      text: 'Services',
+      url: '/'
+    },
+    {
+      text: 'How We Work',
+      url: '/'
+    },
+    {
+      text: 'Projects',
+      url: '/'
+    },
+    {
+      text: 'About',
+      url: '/'
+    }
+  ]
+
   return (
     <>
       <Head>
@@ -21,17 +40,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
-      <HeroSection />
-      <CardWrapper />
-      <BrandLogo />
-      <WorksSection />
-      <OurTeam />
-      <Projects />
-      <Services />
-      <Testimonials />
-      <Callout />
-      <Footer />
+      <>
+        <Header Links={Links} />
+        <HeroSection />
+        <CardWrapper />
+        <BrandLogo />
+        <WorksSection />
+        <OurTeam />
+        <Projects />
+        <Services />
+        <Testimonials />
+        <Callout />
+        <Footer />
+      </>
     </>
   )
 }

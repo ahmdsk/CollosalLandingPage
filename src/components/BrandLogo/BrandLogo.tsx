@@ -25,7 +25,7 @@ const Clients = [
 
 export default function BrandLogo() {
   return (
-    <div className="flex items-center justify-evenly mt-7 py-10 border-y-2 border-white border-opacity-10">
+    <div className="flex items-center justify-evenly min-[300px]:gap-5 md:gap-0 mt-7 py-10 border-y-2 border-white border-opacity-10 min-[300px]:mx-4 md:mx-0 min-[300px]:px-4 md:px-0">
         {Clients.map((client, index) => {
             return <Image src={client.image} alt={client.name} key={index} width={100} height={100} />
         })}

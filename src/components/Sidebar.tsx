@@ -26,7 +26,7 @@ export default function Sidebar({ Links }: Props) {
         </svg>
       </Button>
       {Links.map((link, index) => {
-        return <Link href={link.url ?? '#'} key={index} className="font-bold text-lg text-white text-opacity-70 block mb-8">{link.text}</Link>
+        return <Link href={link.url ?? '#'} key={index} className="font-bold text-lg text-white text-opacity-70 block mb-8 hover:translate-x-6 transition-all ease-out duration-300">{link.text}</Link>
       })}
     </div>
   )

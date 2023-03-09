@@ -21,7 +21,7 @@ export default function TestimonialsCard({ pict, name, job, quote }: Props) {
                 <h5 className="text-white text-opacity-60 font-medium text-sm">{job}</h5>
             </div>
             <div className="text-center px-3">
-                <p className="font-medium">"{quote}"</p>
+                <p className="font-medium">"{`${quote}`}"</p>
             </div>
         </div>
     )
